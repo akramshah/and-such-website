@@ -1,5 +1,11 @@
-import React from "react"
+import React, { Fragment } from "react"
+import Button from 'react-bootstrap/Button'
 
 export default function Home() {
-  return <div>Hello world!</div>
+  return (
+    <Fragment>
+      <div>Hello world!</div>
+      <Button variant="primary">Test</Button>
+    </Fragment>
+  )
 }
