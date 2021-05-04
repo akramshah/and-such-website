@@ -20,7 +20,7 @@ export default function Nav() {
       <Navbar.Brand href="#home">
         <img
           src="/images/logo.png"
-          height="50"
+          height="35"
           className="d-inline-block align-top"
           alt="React Bootstrap logo"
         />

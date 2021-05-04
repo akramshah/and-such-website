@@ -12,3 +12,20 @@
   font-family: 'LiberationSans-Regular';
   src: url('../../public/fonts/LiberationSans-Regular.ttf') format('truetype');
 }
+
+html {
+  background-color: #f8f8ff;
+  cursor: url('http://www.rw-designer.com/cursor-extern.php?id=6921'), auto;	
+}
+
+.carousel-control-prev:hover {
+  cursor: url('http://www.rw-designer.com/cursor-extern.php?id=6921'), auto;
+}
+
+.carousel-control-next:hover {
+    cursor: url('http://www.rw-designer.com/cursor-extern.php?id=6921'), auto;
+}
+
+.nav-link:hover {
+    cursor: url('http://www.rw-designer.com/cursor-extern.php?id=6921'), auto;
+}
