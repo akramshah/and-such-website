@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'LiberationSans-Bold';
+  src: url('../../public/fonts/LiberationSans-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'LiberationSans-Italic';
+  src: url('../../public/fonts/LiberationSans-Italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'LiberationSans-Regular';
+  src: url('../../public/fonts/LiberationSans-Regular.ttf') format('truetype');
+}

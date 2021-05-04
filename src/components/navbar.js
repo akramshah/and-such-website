@@ -1,5 +1,18 @@
 import React from 'react'
 import Navbar from 'react-bootstrap/Navbar'
+import '../pages/index.css'
+import styled, { keyframes } from 'styled-components';
+import { fadeInLeft } from 'react-animations';
+
+const fadeAnimation = keyframes`${fadeInLeft}`;
+const FadedText = styled.text`
+  animation: 3s ${fadeAnimation};
+  `;
+
+const textStyle = {
+  fontFamily: 'LiberationSans-Italic',
+  fontSize: '14px'
+}
 
 export default function Nav() {
   return (
@@ -13,9 +26,11 @@ export default function Nav() {
         />
       </Navbar.Brand>
       <Navbar.Collapse className="justify-content-end">
+      <FadedText>
         <Navbar.Text>
-          <em>Consulting - Production - Public Relations</em>
+          <p style={textStyle}>Consulting - Production - Public Relations</p>
         </Navbar.Text>
+        </FadedText>
       </Navbar.Collapse>
     </Navbar>
   )
