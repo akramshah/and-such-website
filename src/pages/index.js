@@ -2,8 +2,6 @@ import React, { Fragment } from "react"
 import Navbar from '../components/navbar'
 import Sidebar from '../components/sidebar'
 import HomeCarousel from '../components/homeCarousel'
-
-import Button from 'react-bootstrap/Button'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
@@ -12,7 +10,6 @@ export default function Home() {
   return (
     <Fragment>
       <Navbar />
-
       <Container fluid>
         <Row>
           <Col className="d-sm-none d-md-block" lg="2" md="3">

@@ -1,7 +1,7 @@
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel'
 
-export default function Sidebar() {
+export default function homeCarousel() {
   return (
     <Carousel indicators={false} interval="3000">
       <Carousel.Item>
