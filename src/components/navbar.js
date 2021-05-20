@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from 'react-bootstrap/Navbar'
-import '../pages/index.css'
+import '../styles/index.css'
 import styled, { keyframes } from 'styled-components';
 import { fadeInLeft } from 'react-animations';
 
@@ -28,7 +28,7 @@ export default function Nav() {
       <Navbar.Collapse className="justify-content-end">
       <FadedText>
         <Navbar.Text>
-          <p style={textStyle}>Consulting - Production - Public Relations</p>
+          <p className="my-2" style={textStyle}>Consulting - Production - Public Relations</p>
         </Navbar.Text>
         </FadedText>
       </Navbar.Collapse>

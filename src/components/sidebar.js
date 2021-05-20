@@ -1,6 +1,6 @@
 import React from 'react'
 import Nav from 'react-bootstrap/Nav'
-import '../pages/index.css'
+import '../styles/index.css'
 import styled, { keyframes } from 'styled-components';
 import { fadeInRight, flash } from 'react-animations';
 import { Link } from 'gatsby';
@@ -35,7 +35,7 @@ export default function Sidebar() {
       sidebarContainerStyle
     } >
     <FadedNav>
-      <Nav defaultActiveKey="/home" className="flex-column px-3" style={textStyle}>
+      <Nav defaultActiveKey="/home" className="flex-column px-5" style={textStyle}>
         <FlashNav><Nav.Link eventKey="/homeCarousel"><Link className="text-dark text-decoration-none" to="/">Home</Link></Nav.Link></FlashNav>
         <FlashNav><Nav.Link eventKey="/press"><Link className="text-dark text-decoration-none" to="/press">Press</Link></Nav.Link></FlashNav>
         <FlashNav><Nav.Link eventKey="/clients"><Link className="text-dark text-decoration-none" to="/clients">Clients</Link></Nav.Link></FlashNav>

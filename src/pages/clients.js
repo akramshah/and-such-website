@@ -1,9 +1,12 @@
-import React, { Fragment } from 'react'
+import React from 'react'
+import Layout from '../components/layout'
 
 export default function Clients() {
   return (
-    <Fragment>
-      <img src="/images/clientlogos.jpg"></img>
-    </Fragment>
+    <Layout>
+      <div className="text-center">
+        <img src="/images/clients/clients.jpg"></img>
+      </div>
+    </Layout>
   )
 }

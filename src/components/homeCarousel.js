@@ -3,54 +3,54 @@ import Carousel from 'react-bootstrap/Carousel'
 
 export default function homeCarousel() {
   return (
-    <Carousel indicators={false} interval="3000" fade>
-      <Carousel.Item>
+    <Carousel indicators={false} interval="3000">
+      <Carousel.Item className="text-center">
         <img
           className="carousel-image"
           src="/images/home-carousel/1.jpg"
           alt="First slide"
         />
       </Carousel.Item>
-      <Carousel.Item>
+      <Carousel.Item className="text-center">
         <img
           className="carousel-image"
           src="/images/home-carousel/2.jpg"
-          alt="First slide"
+          alt="Second slide"
         />
       </Carousel.Item>
-      <Carousel.Item>
+      <Carousel.Item className="text-center">
         <img
           className="carousel-image"
           src="/images/home-carousel/3.JPG"
-          alt="First slide"
+          alt="Third slide"
         />
       </Carousel.Item>
-      <Carousel.Item>
+      <Carousel.Item className="text-center">
         <img
           className="carousel-image"
           src="/images/home-carousel/4.JPG"
-          alt="First slide"
+          alt="Fourth slide"
         />
       </Carousel.Item>
-      <Carousel.Item>
+      <Carousel.Item className="text-center">
         <img
           className="carousel-image"
           src="/images/home-carousel/5.jpg"
-          alt="First slide"
+          alt="Fifth slide"
         />
       </Carousel.Item>
-      <Carousel.Item>
+      <Carousel.Item className="text-center">
         <img
           className="carousel-image"
           src="/images/home-carousel/6.JPG"
-          alt="First slide"
+          alt="Sixth slide"
         />
       </Carousel.Item>
-      <Carousel.Item>
+      <Carousel.Item className="text-center">
         <img
           className="carousel-image"
-          src="/images/home-carousel/7.png"
-          alt="First slide"
+          src="/images/home-carousel/7.jpg"
+          alt="Seventh slide"
         />
       </Carousel.Item>
     </Carousel>

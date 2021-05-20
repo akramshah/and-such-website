@@ -14,8 +14,12 @@
 }
 
 html {
-  background-color: #f8f8ff;
+  background-color: #fff;
   cursor: url('http://www.rw-designer.com/cursor-extern.php?id=6921'), auto;	
+}
+
+.container-fluid {
+  background-color: #fff;
 }
 
 .carousel-control-prev:hover {
@@ -30,8 +34,11 @@ html {
     cursor: url('http://www.rw-designer.com/cursor-extern.php?id=6921'), auto;
 }
 
+.carousel .slide {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
 .carousel-image {
-  width: auto;
-  height: 700px;
-  max-height: 700px;
+  margin: 0 auto;
 }

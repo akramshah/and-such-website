@@ -1,8 +1,9 @@
-import React, { Fragment } from "react"
+import React from "react"
+import Layout from '../components/layout'
 
 export default function About() {
   return (
-    <Fragment>
+    <Layout>
       <h1>ABOUT</h1>
       <p>
         {" "}
@@ -35,6 +36,6 @@ export default function About() {
         FREELANCE WITH A VARIETY OF FASHION BRANDS, OFFERING HER EXPERTISE IN
         CREATIVE CONSULTING, EVENT AND PHOTO PRODUCTION, AND CELEBRITY SEEDING.
       </p>
-    </Fragment>
+    </Layout>
   )
 }
