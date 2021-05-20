@@ -1,11 +1,24 @@
 import React from "react"
 import Layout from '../components/layout'
 
+
+const textStyle = {
+  fontFamily: 'LiberationSans-Regular',
+  fontSize: '12px',
+  maxWidth: '600px'
+}
+
+const heading = {
+  fontFamily: 'LiberationSans-Regular',
+  fontSize: '20px',
+}
+
+
 export default function About() {
   return (
     <Layout>
-      <h1>ABOUT</h1>
-      <p>
+      <h1 style={heading}>ABOUT</h1>
+      <p style={textStyle}>
         {" "}
         AND SUCH IS A CONSULTING, PRODUCTION, AND PR AGENCY FOUNDED BY KAT
         COOPER AND MARY ANDERSON WHOSE KNOWLEDGE OF LUXURY FASHION, STREET
@@ -16,7 +29,7 @@ export default function About() {
         EXPERIENCE IN THE FASHION AND MUSIC INDUSTRIES, THEY’ RE ABLE TO
         POSITION BRANDS IN A FRESH AND EXCITING WAY.{" "}
       </p>
-      <p>
+      <p style={textStyle}>
         KAT COOPER WORKED AT AGENCY FACTORY PR IN NYC FOR SEVERAL YEARS BEFORE
         LEADING THE PR DEPARTMENT AT PAPER MAGAZINE FOR TWO YEARS WORKING ON THE
         PUBLICATION AS WELL AS BRANDED ACTIVATIONS AND EVENTS, THEN LATER JOINED
@@ -26,7 +39,7 @@ export default function About() {
         HAS FREELANCED IN MANY CAPACITIES FOR BRANDS SUCH AS REFINERY29,
         ALEXANDER WANG, PYER MOSS, LUNYA, SLASHED BY TIA, LAQUAN SMITH, AND BAPE
         TO NAME A FEW.</p>
-        <p> MARY ANDERSON WORKED IN FASHION AND MUSIC ON A FREELANCE
+        <p style={textStyle}> MARY ANDERSON WORKED IN FASHION AND MUSIC ON A FREELANCE
         BASIS BEFORE LEADING VIP AND SPECIAL EVENTS, PR, AND PHOTO PRODUCTION AT
         THE FAMED CAFE HENRIE IN SOHO, NEW YORK CITY.SHE JOINED KAT IN EARLY
         2017 TO SUPPORT PR, CREATIVE PRODUCTION, AND TO LEAD THE INFLUENCER AND
