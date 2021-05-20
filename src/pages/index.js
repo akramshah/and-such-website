@@ -12,10 +12,10 @@ export default function Home() {
       <Navbar />
       <Container fluid>
         <Row>
-          <Col className="d-sm-none d-md-block" lg="2" md="3">
+          <Col className="d-sm-none d-md-block" lg="3" md="4">
             <Sidebar />
           </Col>
-          <Col className="justify-content-center" lg="10" md="9" style={{ paddingTop: '140px', display: 'flex' }}>
+          <Col className="justify-content-center" lg="9" md="8" style={{ paddingTop: '140px', display: 'flex' }}>
             <HomeCarousel />
           </Col>
         </Row>

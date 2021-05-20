@@ -1,16 +1,16 @@
 @font-face {
   font-family: 'LiberationSans-Bold';
-  src: url('../../public/fonts/LiberationSans-Bold.ttf') format('truetype');
+  src: url('../../static/fonts/LiberationSans-Bold.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'LiberationSans-Italic';
-  src: url('../../public/fonts/LiberationSans-Italic.ttf') format('truetype');
+  src: url('../../static/fonts/LiberationSans-Italic.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'LiberationSans-Regular';
-  src: url('../../public/fonts/LiberationSans-Regular.ttf') format('truetype');
+  src: url('../../static/fonts/LiberationSans-Regular.ttf') format('truetype');
 }
 
 html {
@@ -28,4 +28,10 @@ html {
 
 .nav-link:hover {
     cursor: url('http://www.rw-designer.com/cursor-extern.php?id=6921'), auto;
+}
+
+.carousel-image {
+  width: auto;
+  height: 700px;
+  max-height: 700px;
 }

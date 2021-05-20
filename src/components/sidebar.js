@@ -3,7 +3,7 @@ import Nav from 'react-bootstrap/Nav'
 import '../pages/index.css'
 import styled, { keyframes } from 'styled-components';
 import { fadeInRight, flash } from 'react-animations';
-import { Link } from 'react-router';
+import { Link } from 'gatsby';
 
 const fadeAnimation = keyframes`${fadeInRight}`;
 const flashAnimation = keyframes`${flash}`;
@@ -17,7 +17,6 @@ const FlashNav = styled.text`
 
 const sidebarContainerStyle = {
   minHeight: '100vh',
-  paddingTop: '140px',
   backgroundColor: '#fff',
   display: 'flex',
   alignItems: 'center'
@@ -37,11 +36,11 @@ export default function Sidebar() {
     } >
     <FadedNav>
       <Nav defaultActiveKey="/home" className="flex-column px-3" style={textStyle}>
-        <FlashNav><Nav.Link className="text-dark" eventKey="/homeCarousel">Home</Nav.Link></FlashNav>
-        <FlashNav><Nav.Link className="text-dark" eventKey="/press">Press</Nav.Link></FlashNav>
-        <FlashNav><Nav.Link className="text-dark" eventKey="/clients">Clients</Nav.Link></FlashNav>
-        <FlashNav><Nav.Link className="text-dark" eventKey="/about">About</Nav.Link></FlashNav>
-        <FlashNav><Nav.Link className="text-dark" eventKey="/contact">Contact</Nav.Link></FlashNav>
+        <FlashNav><Nav.Link eventKey="/homeCarousel"><Link className="text-dark text-decoration-none" to="/">Home</Link></Nav.Link></FlashNav>
+        <FlashNav><Nav.Link eventKey="/press"><Link className="text-dark text-decoration-none" to="/press">Press</Link></Nav.Link></FlashNav>
+        <FlashNav><Nav.Link eventKey="/clients"><Link className="text-dark text-decoration-none" to="/clients">Clients</Link></Nav.Link></FlashNav>
+        <FlashNav><Nav.Link eventKey="/about"><Link className="text-dark text-decoration-none" to="/about">About</Link></Nav.Link></FlashNav>
+        <FlashNav><Nav.Link eventKey="/contact"><Link className="text-dark text-decoration-none" to="/contact">Contact</Link></Nav.Link></FlashNav>
       </Nav>
       </FadedNav>
     </div>
