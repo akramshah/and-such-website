@@ -53,13 +53,6 @@ export default function homeCarousel() {
           alt="First slide"
         />
       </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="carousel-image"
-          src="/images/home-carousel/8.png"
-          alt="First slide"
-        />
-      </Carousel.Item>
     </Carousel>
   )
 }
